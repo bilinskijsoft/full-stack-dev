@@ -1,0 +1,36 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.header{
+	height:80px;
+	width:100%;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.content>div{
+	display:inline-block;
+}
+
+.left{
+	width: 24%;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.right{
+	width: 75%;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.footer{
+	text-align: center;
+	border: 1px solid black;
+	height:80px;
+	width:100%;
+	position: absolute;
+	bottom: 0;
+}
