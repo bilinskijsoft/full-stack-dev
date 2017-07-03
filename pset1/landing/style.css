@@ -4,17 +4,17 @@ body{
   margin: 0;
 }
 
-.header{
+header{
   background-color: white;
   height: 84px;
   width: 100%;
 }
 
-.header>div {
+header>div {
   display: inline-block;
 }
 
-.menu{
+nav{
   padding: 3px 0 0 0;
   margin: 10px 106px 0 0;
   float: right;
@@ -22,7 +22,7 @@ body{
 
 .mnu.item{
   display: inline-block;
-  padding-left:68px;
+  padding-left: 68px;
 }
 
 .mnu.item>a{
@@ -52,7 +52,7 @@ body{
 }
 
 .middle{
-  height:555px;
+  height: 555px;
 }
 
 .middle>div{
@@ -111,20 +111,20 @@ body{
 .tripple_inner{
   margin:   0 auto 0 auto;
   padding: 60px 0 0 0;
-  width:1090px;
+  width: 1090px;
 }
 
 .tripple_inner>li{
-  display:inline-block;
-  height:260px;
-  width:360px;
+  display: inline-block;
+  height: 260px;
+  width: 360px;
   text-align: center;
 }
 
 .icon_wrapper>.icon{
   color:white;
   background-color: #1abc9c;
-  font-size: 44px;
+  font-size: 45px;
   position: relative;
   top: 22px;
 }
@@ -132,9 +132,9 @@ body{
 .column>.icon_wrapper{
   background-color: #1abc9c;
   border-radius: 45px;
-  height:90px;
-  width:90px;
-  margin:auto;
+  height: 90px;
+  width: 90px;
+  margin: auto;
 }
 
 .column>.text{
@@ -142,13 +142,17 @@ body{
   padding: 20px 0 0 0;
 }
 
-.footer{
-  height:647px;
+.column>.text>p{
+  margin: 0 0 20px 0;
+}
+
+footer{
+  height: 647px;
 }
 
 .contact_form{
-  width:602px;
-  margin:auto;
+  width: 602px;
+  margin: auto;
 }
 
 .contact_form>.form_title {
@@ -162,38 +166,38 @@ body{
 .contact_form>.input>input{
   font-family: helvetica;
   font-size: 16px;
-  height:33px;
-  width:602px;
+  height: 33px;
+  width: 602px;
   margin: 10px 0 0 0;
   padding: 0 0 0 6px;
-  color:gray;
+  color: gray;
   border: 1px solid white;
-  transition-property:color, border-color;
+  transition-property: color, border-color;
   transition-duration: .2s;
 }
 
 .contact_form>.input_tarea>textarea{
   font-family: helvetica;
   font-size: 16px;
-  height:120px;
-  width:602px;
+  height: 120px;
+  width: 602px;
   margin: 10px 0 0 0;
   padding: 5px 0 0 6px;
   color:gray;
   border: 1px solid white;
-  transition-property:color, border-color, border-radius;
+  transition-property: color, border-color, border-radius;
   transition-duration: .2s;  
 }
 
 .contact_form>.input>input:focus{
   border-radius: 4px;
-  color:black;
+  color: black;
   border-color: #f1c40f;
 }
 
 .contact_form>.input_tarea>textarea:focus{
   border-radius: 4px;
-  color:black;
+  color: black;
   border-color: #f1c40f;
 }
 

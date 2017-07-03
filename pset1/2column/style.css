@@ -3,7 +3,11 @@ body{
 	padding:0;
 }
 
-.header{
+.container{
+	min-height:87vh;
+}
+
+header{
 	height:80px;
 	width:100%;
 	border: 1px solid black;
@@ -15,7 +19,9 @@ body{
 }
 
 .left{
+	vertical-align: top;
 	width: 24%;
+	min-height: 100%;
 	border: 1px solid black;
 	text-align: center;
 }
@@ -26,11 +32,10 @@ body{
 	text-align: center;
 }
 
-.footer{
+footer{
 	text-align: center;
 	border: 1px solid black;
 	height:80px;
 	width:100%;
-	position: absolute;
 	bottom: 0;
 }
