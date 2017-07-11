@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 4</title>
+	<style>
+		input{
+			display:inline-block;
+			padding: 5px;
+			margin: 5px;
+		}
+	</style>
+</head>
+<body>
+	<h2>
+		<p>Введите время в секундах</p>
+		<input type="text" id="seconds">
+		<button onclick="clickButton();">OK</button>
+	</h2>
+	<h3>
+		<span id="result"></span>	
+	</h3>
+	
+</body>
+	<script>
+		function clickButton() {
+			var element = document.getElementById("seconds");
+			var value = element.value
+
+			if (value < 0 || value > 86400) {
+				alert("Неправилный ввод");
+			} else{
+				var element = document.getElementById("result");
+				var date = new Date(null);
+				date.setSeconds(value); 
+
+				var H = 0;
+				var M = 0;
+				var S = 0;
+				element.innerHTML = date.toISOString("H:mm:ss");
+			}
+		}
+	</script>
+</html>

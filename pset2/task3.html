@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 3</title>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			var sum = ""
+
+			for (var i = 0; i < 50; i++) {
+				sum = sum + "*";	
+
+				var elem = document.getElementById("result");
+				elem.innerHTML = elem.innerHTML + "<p>" + sum + "</p>";
+			};
+
+			
+		});
+	</script>
+</head>
+<body>
+	<div>
+		<h2>
+			<p>вывести на страницу список из 50 элементов вида:</p>
+			<p>*</p>
+			<p>* *</p>
+			<p>* * *</p>
+			<p>* * * *</p>
+			<p>...</p>
+		</h2>
+		<h3>
+			<span id="result"></span>
+		</h3>
+	</div>	
+</body>
+</html>
